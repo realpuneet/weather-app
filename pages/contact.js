@@ -7,9 +7,10 @@ const Contact = () => {
     <div className="min-h-screen bg-gradient-to-br from-blue-200 via-cyan-100 to-yellow-100">
       <Head>
         <title>Contact | Weather 24x7</title>
+        <link rel="icon" href="https://i.pinimg.com/736x/77/0b/80/770b805d5c99c7931366c2e84e88f251.jpg" sizes="any" />
       </Head>
       <Navbar />
-      <div className="flex flex-col items-center justify-center min-h-[80vh] px-4">
+      <div className="flex flex-col py-4 items-center justify-center min-h-[80vh] px-4">
         <div className="bg-white/80 rounded-2xl shadow-xl p-8 max-w-xl w-full border border-blue-200 animate-fade-in-up">
           <h1 className="text-3xl font-bold text-blue-700 mb-4 flex items-center gap-2">
             📬 Contact Us
@@ -35,6 +36,7 @@ const Contact = () => {
             />
             <button
               type="submit"
+              disabled
               className="bg-yellow-300 hover:bg-yellow-400 text-black font-semibold px-6 py-2 rounded-lg shadow transition-all duration-200 flex items-center gap-2 justify-center"
             >
               ✉️ Send Message

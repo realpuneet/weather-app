@@ -7,6 +7,7 @@ const About = () => {
     <div className="min-h-screen bg-gradient-to-br from-blue-200 via-cyan-100 to-yellow-100">
       <Head>
         <title>About | Weather 24x7</title>
+        <link rel="icon" href="https://i.pinimg.com/736x/77/0b/80/770b805d5c99c7931366c2e84e88f251.jpg" sizes="any" />
       </Head>
       <Navbar />
       <div className="flex flex-col items-center justify-center min-h-[80vh] px-4">

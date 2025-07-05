@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => (
@@ -7,9 +8,9 @@ const Navbar = () => (
       <span>Weatherly</span>
     </div>
     <div className="flex gap-4">
-      <a href="/home" className="text-white hover:text-yellow-200 transition">Home</a>
-      <a href="/about" className="text-white hover:text-yellow-200 transition">About</a>
-      <a href="/contact" className="text-white hover:text-yellow-200 transition">Contact</a>
+      <Link href="/" className="text-white hover:text-yellow-200 transition">Home</Link>
+      <Link href="/about" className="text-white hover:text-yellow-200 transition">About</Link>
+      <Link href="/contact" className="text-white hover:text-yellow-200 transition">Contact</Link>
     </div>
   </nav>
 );
