@@ -2,6 +2,7 @@ import ForecastCard from '@/components/ForecastCard';
 import WeatherCard from '@/components/WeatherCard';
 import Navbar from '@/components/Navbar';
 import React, { useState } from 'react'
+import Head from 'next/head';
 
 const HomePage = () => {
   const [city, setcity] = useState('');
@@ -25,6 +26,10 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-200 via-cyan-100 to-yellow-100">
+      <Head>
+        <title>Weather 24x7</title>
+        <link rel="icon" href="https://i.pinimg.com/736x/77/0b/80/770b805d5c99c7931366c2e84e88f251.jpg" sizes="any" />
+      </Head>
       <Navbar />
       <div className='flex pt-5 flex-col items-center justify-center min-h-[80vh] px-2'>
         <div className='flex gap-2 items-center w-full max-w-md mb-8'>
