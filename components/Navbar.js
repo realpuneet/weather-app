@@ -7,9 +7,9 @@ const Navbar = () => (
       <span>Weatherly</span>
     </div>
     <div className="flex gap-4">
-      <a href="#" className="text-white hover:text-yellow-200 transition">Home</a>
-      <a href="#" className="text-white hover:text-yellow-200 transition">About</a>
-      <a href="#" className="text-white hover:text-yellow-200 transition">Contact</a>
+      <a href="/home" className="text-white hover:text-yellow-200 transition">Home</a>
+      <a href="/about" className="text-white hover:text-yellow-200 transition">About</a>
+      <a href="/contact" className="text-white hover:text-yellow-200 transition">Contact</a>
     </div>
   </nav>
 );
